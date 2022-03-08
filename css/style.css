@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family:dream ;
+    src: url(../fonts/dream\ orphans.otf);
+}
+@font-face {
+    font-family: gabrielle;
+    src: url(../fonts/Gabrielle.ttf);
+}
+@font-face {
+    font-family:kiwi ;
+    src: url(../fonts/kiwischoolhandwritingwithguidesregular.ttf);
+}
+@font-face {
+    font-family:golder ;
+    src: url(../fonts/The\ Goldsmith_Vintage.ttf);
+}
+:root{
+    --cor1:#0798f8;
+    --cor2:#078ae1;
+    --cor3:#0672ba;
+    --cor4:#045f9b;
+    --cor5:#014674;
+    --font1:dream;
+    --font2:gabrielle;
+    --font3:kiwi;
+    --font4:golder;
+
+   /* CSS FEITO POR MIM 
+      MATEUS PEREIRA (MATEUSKRIOK) EM ATUALIZAÇÃO CONFORME O APRENDIZADO*/
+}
+
+
+.header-main{
+   background-color:#0798f807;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    box-shadow: 2px 1px 5px  #9cd7ff;
+    border-radius: 0px 20px 20px 0px;
+    
+
+    
+}
+
+.titulo, .paragrafo-principal{
+    text-align: center;
+    font-family:var(--font3) ;
+    margin-top: 15px;
+    color:var(--cor3) ;
+}
+.paragrafo-principal:hover{
+    background-color: #9cd7ff;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.minha-foto{
+    margin-top: 10%;
+    width: 80%;
+    border-radius: 50%;
+    margin-left: 6%;
+    border: 2px solid var(--cor3);
+}
+
+
+.nav-main {
+    margin-top: 1%;
+    font-size: 28px;
+    text-align: center;
+    font-family: var(--font3);
+    
+}
+.nav-main a{
+    text-decoration: none;
+    color: var(--cor3);
+   
+   
+}
+.nav-main a:hover{
+    background-color: #9cd7ff;
+    border-radius: 20px;
+    transition-duration: 200ms;
+    transition-delay: 1ms;
+      
+    
+    font-size: 34px;
+}
+
+.fa-brands{
+    margin-right: 5px;
+}
+
+.main-content{
+    width: 50%;
+     margin-left: 30%;
+    
+}
+
+.main-titulo{
+    color: #014674;
+    margin-top: px;
+    font-size: 35px;
+    text-shadow: 0px 0px 1px var(--cor1);
+    text-align: center;
+    border-radius: 20px;
+    border: 1px solid var(--cor2);
+    background-color: #0798f807;
+    box-shadow: 0px 0px 2px var(--cor5) ;
+    
+    
+}
+
+.main-titulo:hover{
+    background-color:#0c5f9615 ;
+    transition: 0.2s;
+    transition-delay: 0.2s;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.main-content > ul{
+    padding: 10%;
+    color: var(--cor1);
+    
+    
+}
+.main-content a{
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--cor5);
+    font-family: var(--font3);
+    
+    
+    
+}
+.main-content a:hover{
+    background-color: var(--cor1);
+        background-color: #9cd7ff;
+    border-radius: 20px;
+    font-size: 18px;
+    
+   
+}
+
+
+
+
+.main-content > ul > h2{
+    color: var(--cor5);
+ text-shadow: 1px 1px 1px var(--cor1);
+}
+
+
+.breve > h2{
+    margin-bottom: 10px;
+    color: var(--cor5);
+    font-family: var(--font1);
+    text-shadow: 1px 1px 1px var(--cor1);
+    margin-left: 10%;
+}
+
+.breve > p{
+    font-size: 20px;
+    color: var(--cor5);
+    font-family: var(--font3);
+    
+}
+
+.breve ul{
+    margin-left: 10%;
+    color: var(--cor1);
+}
+
+.certificados > h2{
+    margin-top: 10%;
+    color: var(--cor5);
+    font-family: var(--font1);
+    text-shadow: 1px 1px 1px var(--cor1);
+    margin-left: 10%;
+    margin-bottom: 2%;
+    
+}
+
+.certificados > p{
+    font-size: 20px;
+    color: var(--cor5);
+    font-family: var(--font3);
+}
+.certificados ul{
+    margin-left: 10%;
+    color: var(--cor1);
+}
+
+address{
+    text-align: center;
+    margin-top: 10%;  
+    
+}
+
+
+
+footer li{
+    list-style-type: none;
+    font-family: var(--font3);
+    color: black;
+    font-weight: bold;
+    
+
+
+}
+.a-contato{
+    color: white;
+}
+
+.atualizando > h2{
+    color: #0798f8;
+    text-align: center;
+    margin-top: 10%;
+    font-family: var(--font2);
+    font-size: 2em;
+    
+    
+    
+}
+
+.atualizando > h2:hover{
+    background-color: #ffffff0e;
+    transition-duration: 1.5s;
+    padding-bottom: 20px;
+    margin: 0;
+    font-size:3em;
+    cursor: pointer;
+    
+}
